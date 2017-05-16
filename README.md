@@ -33,10 +33,10 @@
 ## ch3 javascript基础
 - javascript与ecmascript的区别
 - 基本语法
-  + 变量与命名提升(hoisting)
-  + 基本数据类型与包装数据类型
-  + 赋值操作符，运算操作符
-  + 循环
+  - 变量与命名提升(hoisting)
+  - 基本数据类型与包装数据类型
+  - 赋值操作符，运算操作符
+  - 循环
 - Function
 - Object
 - Array
@@ -65,4 +65,23 @@
 
 ## ch6 Vue框架
 - 从1.0到2.0
-- 
+- Vue在组件化方面和React的对比
+- Vue在MVVM方面和Angular的对比
+- Vue在生态圈方面和React的对比
+- 三大主流框架的适用场景对比
+
+## ch7 模块化
+- CommonJS
+- AMD
+- requirejs
+- webpack
+
+## ch8 脚手架和各种构建工具
+- grunt
+- gulp
+- yarn and npm
+- yeoman
+- vue-cli
+- react-create-app
+
+## ch9 devOps and CI
