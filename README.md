@@ -31,5 +31,38 @@
 - CSS preprocessor(sass and less)
 
 ## ch3 javascript基础
+- javascript与ecmascript的区别
+- 基本语法
+  + 变量与命名提升(hoisting)
+  + 基本数据类型与包装数据类型
+  + 赋值操作符，运算操作符
+  + 循环
+- Function
+- Object
+- Array
+- 原型链和执行上下文环境
+- apply, call and bind
+- event bubble and delegate
+- javascript HTML DOM
+- javascript HTML BOM
+- Ajax
+- JSON
 
-## ch4 MVC/MVP/MVVM框架
+## ch4 Angular框架
+- MVC-MVP-MVVM
+- Angular的起源
+- 双向数据绑定，依赖注入
+- 指令（directive）
+- 动态编译模板
+- 模块化
+
+## ch5 React框架
+- 前端DOM性能优化的先驱者 virtual dom
+- 组件化的开发思路
+- flux与redux
+- react-router
+- 繁荣的生态圈优点与缺点
+
+## ch6 Vue框架
+- 从1.0到2.0
+- 
