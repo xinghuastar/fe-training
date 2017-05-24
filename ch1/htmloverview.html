@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is Document title</title>
+</head>
+<script type="text/javascript">
+/*var test = "htmls://sjdk?a=3&b=5";
+var pairs = test.split(/[?&]/g);
+for (var i = pairs.length - 1; i >= 0; i--) {
+	//console.log(pairs[i]);
+	var kevals = pairs[i].match(/^([^=]+)(?:=([\s\S]*))?/);
+	console.log(kevals);
+};
+console.log(localStorage);
+console.log(new Date(0));*/
+
+var Obj = {a:"ss"};
+Obj.dcs = function(){
+	var dcs = this;
+	this.DCS = this["DCS"]={};
+	//this.a = "aaa";
+	return this;
+};
+Obj.dcs.prototype = {
+	init: function(config){
+		//this.config = config;
+		this.b = "bbb";
+		var self = this;
+		return this;
+	}
+};
+var test = new Obj.dcs();
+console.log(test.init().b);
+</script>
+<body>
+<h1>This is a heading</h1>
+<p>
+	This is a paraph for document content.
+</p>
+
+</body>
+</html>
