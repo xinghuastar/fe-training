@@ -85,3 +85,59 @@ HTMl 音频 视频
 HTML API
 Geolocation Drag/Drop LocalStorage/sessionStorage webworkers
 
+Css 
+Css 选择器
+元素选择器
+分组选择器 逗号分隔
+Id选择器
+类选择器
+属性选择器 [attr] or [attr=value]
+后代选择器 空格
+子元素选择器 >
+相邻兄弟选择器 +
+伪类 a:link 
+伪元素(:first-letter, :first-line, :before, :after)
+Css 样式：外部样式表， 内部样式表  ，内联样式
+Css 盒子模型 margin border padding width height.
+ 
+#box {
+  width: 70px;
+  margin: 10px;
+  padding: 5px;
+}
+ 
+行内元素和块元素display: none inline block inline-block
+Css outline 
+语法: outline: width style color
+Outline-style outline-width outline-color
+1.绘制在border外围
+2.不占据元素空间
+实践：与border 元素一起使用实现双重边框，与border-radius一起使用实现内圆外方的边框
+Css 颜色
+CSS 颜色使用组合了红绿蓝颜色值 (RGB) 的十六进制 (hex) 表示法进行定义。对光源进行设置的最低值可以是 0（十六进制 00）。最高值是 255（十六进制 FF）。
+十六进制值使用三个双位数来编写，并以 # 符号开头。
+ 
+Css 背景:
+Background-color
+background-image
+background-repeat:
+background-position: 这个属性设置背景原图像（由 background-image 定义）的位置，背景图像如果要重复，将从这一点开始
+background-position 的默认值是 0% 0%，在功能上相当于 top left。这就解释了背景图像为什么总是从元素内边距区的左上角开始平铺，除非您设置了不同的位置值。
+background-attachment:
+css 文本：
+text-align: left right center justify
+text-indent:(建议与padding 配合使用)
+word-spacing
+letter-spacing
+text-transform: none uppercase lowercase capitalize
+text-decoration: none underline overline line-through blink
+white-space(空格 换行 和tab 字符的处理)：normal pre nowrap pre-wrap pre-line
+ 
+Direction:
+Css 字体：
+Font-family
+Font-style
+Font-variant
+Font-weight
+Font-size
+Css 链接 :link :visited :hover :active
