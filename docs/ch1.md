@@ -5,15 +5,15 @@ newnewnew
 https://www.tutorialspoint.com/html/html_overview.htm
 50 hours (6 hours/per day) 4 days ,
 Day 1:
-html 
-定义:
+## html 
+### 定义:
 HTML 是用来描述网页的一种语言。
 •	HTML 指的是超文本标记语言 (Hyper Text Markup Language)
 •	HTML 不是一种编程语言，而是一种标记语言 (markup language)
 •	标记语言是一套标记标签 (markup tag)
 •	HTML 使用标记标签来描述网页
 
-Html 发展史
+### Html 发展史
 版本	年份
 HTML	1991
 HTML+	1993
@@ -24,7 +24,7 @@ XHTML 1.0	2000
 HTML5	2012
 XHTML5	2013
 
-XHTML, XHTML 与 HTMl
+### XHTML, XHTML 与 HTMl
 什么是 XHTML？
 •	XHTML 指的是可扩展超文本标记语言
 •	XHTML 与 HTML 4.01 几乎是相同的
@@ -33,18 +33,18 @@ XHTML, XHTML 与 HTMl
 •	XHTML 是 2001 年 1 月发布的 W3C 推荐标准
 •	XHTML 得到所有主流浏览器的支持
 
-1.	html Doctype
+### 	html Doctype
 <!DOCTYPE> 声明
 Web 世界中存在许多不同的文档。只有了解文档的类型，浏览器才能正确地显示文档。
 HTML 也有多个不同的版本，只有完全明白页面中使用的确切 HTML 版本，浏览器才能完全正确地显示出 HTML 页面。这就是 <!DOCTYPE> 的用处。
 <!DOCTYPE> 不是 HTML 标签。它为浏览器提供一项信息（声明），即 HTML 是用什么版本编写的。
 
-浏览器内核:(主流)
+### 浏览器内核:(主流)
 Trident(又称为MSHTML): IE
 Gecko: Mozilla Firefox
 WEbkit内核: Safari Chrome
 
-Quirks mode:
+### Quirks mode
 quirks mode和strict mode是浏览器解析css的两种模式
 浏览器如何判断何用哪种方式解析CSS？
 解决方案就是采用doctype声明，大多数浏览器采用下面的这些判断规则
@@ -57,7 +57,7 @@ quirks mode和strict mode是浏览器解析css的两种模式
 可以这么说，在现有有doctype声明的网页，绝大多数是采用strict mode进行解析的。
 在ie6中，如果在doctype声明前有一个xml声明(比如:<?xml version="1.0" encoding="iso-8859-1"?>)，则采用quirks mode解析。这条规则在ie7中已经移除了。
 
-HTML 元素和属性
+### HTML 元素和属性
 HTML 元素语法
 •	HTML 元素以开始标签起始
 •	HTML 元素以结束标签终止
